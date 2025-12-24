@@ -3,5 +3,5 @@ bash <(curl -fsSL https://raw.githubusercontent.com/JoyelTheDev/VM-main/refs/hea
 ```
 main
 ```
-bash <(curl-fsSL https://raw.githubusercontent.com/JoyelTheDev/VM-main/refs/heads/main/vm.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/JoyelTheDev/VM-main/refs/heads/main/vm.sh)
 ```
