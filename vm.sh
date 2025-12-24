@@ -55,7 +55,8 @@ check_dependencies() {
         # Detect package manager
         if command -v apt &> /dev/null; then
             # Debian/Ubuntu
-            sudo apt update
+            sudo apt update -y
+            sudo apt upgrade -y
             sudo apt install -y qemu-system qemu-utils cloud-image-utils wget
             
         elif command -v yum &> /dev/null; then
